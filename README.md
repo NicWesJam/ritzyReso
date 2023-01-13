@@ -15,6 +15,17 @@ Worked on this a little while ago and hope it is useful for those wanting to int
 ## Getting Started
 - Note this expects you are familiar with Django/DRF/Metamask/NFTs in general
 
+Setup .env file
+- Create a .env file in project directory and fill it with
+```
+NODE_ENV=development
+REACT_APP_OPENSEA_URL='YOUR OPENSEA URL'
+
+# backend variables
+INFURA_URL="https://goerli.infura.io/v3/<Your Project ID>"
+CONTRACT_ADDRESS="Your Contract Address"
+BASE_URL="https://localhost"
+``
 
 Setup Contract
 - Deploy an NFT contract, recommend you use the nft found in contracts folder
