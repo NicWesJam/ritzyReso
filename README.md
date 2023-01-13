@@ -25,7 +25,7 @@ REACT_APP_OPENSEA_URL='YOUR OPENSEA URL'
 INFURA_URL="https://goerli.infura.io/v3/<Your Project ID>"
 CONTRACT_ADDRESS="Your Contract Address"
 BASE_URL="https://localhost"
-``
+```
 
 Setup Contract
 - Deploy an NFT contract, recommend you use the nft found in contracts folder
